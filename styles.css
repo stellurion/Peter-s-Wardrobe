@@ -9,6 +9,13 @@
     font-size: 35px;
 }
 
+.p1 {
+    position: static;
+    text-align: center;
+    /* font-family: 'Comic Sans MS', cursive, sans-serif; */
+    font-size: 20px;
+}
+
 .btn {
     background-color: transparent;
     border: none;

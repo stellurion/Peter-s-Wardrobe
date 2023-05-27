@@ -4,35 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Peter's Wardrobe</title>
+    <title>Petr's Wardrobe</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel = "stylesheet" type = "text/css" href = "./styles.css">
     <link rel = "stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="shortcut icon" type="image/png" href="images/petr.png"/>
+
+    <style>        
+        li a:hover {
+          background-color: #FFFAF0;
+        }
+     </style>
 </head>
 <body onload = load() class = "bgc">
-    <h1 class = "h1">Petr's Wardrobe</h1>
+    <ul class = "ul">
+        <li class = "li"><a class = "li_a" href="#home">Petr's Wardrobe</a></li>
+    </ul class = "ul">
     <p class = "p1">Build Up Your Own Petr Anteater!</p>
     
     <div class = "grid">
-        <button id = "arrow_left" class = "btn"> <i class = "material-icons">chevron_left</i> </button>
-        <section class = "parent">   
+        <button id = "arrow_left_hat" class = "btn one"> <i class = "material-icons">chevron_left</i> </button>
+        <button id = "arrow_left" class = "btn two"> <i class = "material-icons">chevron_left</i> </button>
+        <button id = "arrow_left_object" class = "btn three"> <i class = "material-icons">chevron_left</i> </button>
+        <section class = "parent seven">   
             <img class = "body" src = "images/petr.png" > 
             <img id = "clothes" class = "clothes" src = "" width = "200"> 
             <img id = "object" class = "object" src = "" width = "200"> 
             <img id = "hat" class = "hat" src = "" width = "200"> 
         </section>
-        <button id = "arrow_right" class = "btn"> <i class = "material-icons">chevron_right</i> </button>
+        <button id = "arrow_right_hat" class = "btn four"> <i class = "material-icons">chevron_right</i> </button>
+        <button id = "arrow_right" class = "btn five"> <i class = "material-icons">chevron_right</i> </button>
+        <button id = "arrow_right_object" class = "btn six"> <i class = "material-icons">chevron_right</i> </button>
     </div>
 
-    <img src="images/celebrate.png" class = "cele_ptr">
-    <p class = "p2">All about
-         <a href="https://www.uciunfiltered.com/home/all-about-petr-the-stickers-that-stole-hearts-at-uc-irvine" target="_blank">Petr: The Stickers</a>
+    <p class = "cele_ptr">
+         <a href="https://www.uciunfiltered.com/home/all-about-petr-the-stickers-that-stole-hearts-at-uc-irvine" target="_blank">
+            <img src="images/celebrate.png" style="width:200px;" onclick="alerting()"></a>
     </p>
+
+<!-- names -->
+<!-- 
+    <ul style="list-style-type:circle;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul> -->
+
 </body>
+<footer class="footer">
+    <p>Author: Sarah Shi, Emily Gao Wang, Shelly Wu</p>
+</footer>
 <script src = "./script.js"></script>
 </html>
-
-
-<!-- link about introduction of Petre
-     -->

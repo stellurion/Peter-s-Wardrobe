@@ -3,24 +3,33 @@ outfit_number = 0;
 object_number = 0;
 
 hats = ["", "test.png", "images/hat1.png", "images/hat2.png", "images/hat3.png"]
+hats_c = ["", "clothes sparkle", "clothes pants", "clothes casual"] //change
+
 outfits = ["", "images/outfit1.png", "images/outfit2.png", "images/outfit3.png"];
+outfit_c = ["", "clothes sparkle", "clothes pants", "clothes casual"]
+
 objects = ["", "images/object1.png", "images/object2.png", "images/object3.png"];
+objects_c = ["", "object sparkle", "clothes pants", "clothes casual"] //change
 
 function hello()
 {
     console.log("hi")
 }
 
-function change_clothes(increment)
+function change_clothes(increment) //circle indexing
 {
-    if(outfit_number + increment > outfits.length-1 || outfit_number + increment < 0) //wrap around wardrobe
+    index = outfit_number + increment
+    if(Math.abs(index > outfits.length-1) || Math.abs(index) < 0) //wrap around wardrobe
         outfit_number = 0;
     else
-        outfit_number += increment;
-
-    console.log(outfits[outfit_number])
-    //dyanmically change image path
-    document.getElementById("clothes").innerHTML = `<img id = "clothes" class = "clothes" src = "${outfits[outfit_number]}" width = "200"> `;
+    {
+        if(index < 0)
+            outfit_number = outfits.length + increment;
+        else
+            outfit_number += increment;
+    }
+    document.getElementById("clothes").src = outfits[outfit_number]
+    document.getElementById("clothes").className = "clothes " + outfit_c[outfit_number]
 }
 function back()
 {

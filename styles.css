@@ -118,7 +118,7 @@
 .ball { 
     width: 100px;
     top: 46%; 
-    left: 39%; 
+    left: 52%; 
 }
 .rose { 
     width: 100px;
@@ -179,7 +179,7 @@
     margin-right: auto;
     z-index: -1;
     left: 85%;
-    top: 78%;
+    top: 75%;
 }
 
 .footer {
@@ -214,3 +214,12 @@
     font-family: "Gill Sans";
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
+
+.p2 {
+    position: absolute;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    left: 90%;
+    top: 57%;
+}

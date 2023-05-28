@@ -109,6 +109,18 @@
     top: 20%; 
     left: 35%; 
 }
+.gown { 
+    width: 450px;
+    top: 20%; 
+    left: 35%; 
+}
+.dress { 
+    width: 450px;
+    top: 20%; 
+    left: 35%; 
+}
+
+
 
 
 .object {
@@ -129,6 +141,16 @@
     width: 100px;
     top: 49%; 
     left: 41%; 
+}
+.bunny {
+    width: 100px;
+    top: 49%; 
+    left: 41%; 
+}
+.icecream{
+    width: 80px;
+    top: 42%; 
+    left: 56%;  
 }
 
 
@@ -151,6 +173,16 @@
     width: 200px;
     top: 29%; 
     left: 43%; 
+}
+.cap { 
+    width: 175px;
+    top: 14%; 
+    left: 45.3%; 
+}
+.bow { 
+    width: 115px;
+    top: 24%; 
+    left: 49%; 
 }
 
 

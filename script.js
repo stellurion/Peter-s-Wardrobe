@@ -2,14 +2,14 @@ hat_number = 0;
 outfit_number = 0;
 object_number = 0;
 
-hats = ["", "images/hat1.png", "images/hat2.png", "images/hat3.png"]
-hats_c = hats_c = ["", "glasses", "sun", "grad_hat"] //change
+hats = ["", "images/hat1.png", "images/hat2.png", "images/hat3.png", "images/hat4.png", "images/hat5.png"]
+hats_c = hats_c = ["", "glasses", "sun", "grad_hat", "cap", "bow"] //change
 
-outfits = ["", "images/outfit1.png", "images/outfit2.png", "images/outfit3.png"];
-outfit_c = ["", "grad", "pants", "casual"]
+outfits = ["", "images/outfit1.png", "images/outfit2.png", "images/outfit3.png", "images/outfit4.png", "images/outfit5.png"];
+outfit_c = ["", "grad", "pants", "casual", "gown", "dress"]
 
-objects = ["", "images/object1.png", "images/object2.png", "images/object3.png"];
-objects_c = ["", "ball", "bread", "rose"] //change
+objects = ["", "images/object1.png", "images/object2.png", "images/object3.png", "images/object4.png", "images/object5.png"];
+objects_c = ["", "ball", "bread", "rose", "bunny", "icecream"] //change
 
 function alerting() 
 {

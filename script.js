@@ -3,10 +3,10 @@ outfit_number = 0;
 object_number = 0;
 
 hats = ["", "images/hat1.png", "images/hat2.png", "images/hat3.png"]
-hats_c = hats_c = ["", "glasses", "sun", "purple"] //change
+hats_c = hats_c = ["", "glasses", "sun", "grad_hat"] //change
 
 outfits = ["", "images/outfit1.png", "images/outfit2.png", "images/outfit3.png"];
-outfit_c = ["", "sparkle", "pants", "casual"]
+outfit_c = ["", "grad", "pants", "casual"]
 
 objects = ["", "images/object1.png", "images/object2.png", "images/object3.png"];
 objects_c = ["", "ball", "bread", "rose"] //change

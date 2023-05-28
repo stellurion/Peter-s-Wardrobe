@@ -6,7 +6,7 @@
     position: static;
     text-align: center;
     font-family: 'Trebuchet MS';
-    font-size: 20px;
+    font-size: 18px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -23,7 +23,7 @@
     background-color: transparent;
     border: none;
     transition: background-color 0.5s ease;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .btn:hover {
     background-color: rgb(247, 237, 190);
@@ -94,10 +94,10 @@
     z-index: 4;
     width: 200px;
 }
-.sparkle { 
-    width: 240px;
-    top: 40%; 
-    left: 43%; 
+.grad { 
+    width: 400px;
+    top: 21.5%; 
+    left: 37%; 
 }
 .pants { 
     width: 145px;
@@ -142,10 +142,10 @@
     top: 17%; 
     left: 43.7%; 
 }
-.purple { 
-    width: 145px;
-    top: 27%; 
-    left: 45%; 
+.grad_hat { 
+    width: 600px;
+    top: 11.5%; 
+    left: 29.5%; 
 }
 .glasses { 
     width: 200px;
@@ -190,6 +190,7 @@
     color: #212529;
     text-align: left;
     padding: 10px;
+    font-family: "Gill Sans";
 }
 
 .ul {
@@ -215,11 +216,3 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
 
-.p2 {
-    position: absolute;
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    left: 90%;
-    top: 57%;
-}
